@@ -1,0 +1,317 @@
+body {
+    background-color: white !important;
+}
+
+.nvb .logo {
+    height: 70px;
+    width: 140px;
+    top: 0;
+}
+
+.header {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/Photo(31).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.header .title {
+    font-size: 5rem;
+    color: rgb(129, 75, 8);
+
+
+}
+.navbar-toggler {
+    color: white;
+    border-color: white;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+   background-color: white;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.header .subtitle {
+    font-size: 2rem;
+    font-weight: 500
+}
+
+.rooms-img {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.offers span {
+    font-size: 3rem;
+    text-decoration: underline;
+    color: rgb(176, 107, 21);
+}
+
+.offers .text {
+    font-size: 1rem;
+}
+
+
+/* .gallery{
+    background-color: rgb(176, 107, 21);
+} */
+
+.services .img-fluid {
+    opacity: 0.5;
+}
+
+.about {
+    background-color: rgb(176, 107, 21);
+    color: white;
+}
+
+
+
+.gallery-title {
+    background-color: rgba(180, 108, 20, 0.3);
+}
+
+
+
+
+
+
+.service-col {
+    font-size: 1.2rem;
+    color: rgb(173, 108, 29);
+}
+
+.nvb {
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+
+.nvb .navbar .collapse a {
+    color: white;
+}
+
+.nvb .navbar .collapse a:hover {
+    text-decoration: underline;
+    color: rgb(161, 98, 20);
+}
+
+.home {
+    padding: 0;
+}
+
+.home .slide {
+    min-height: 80vh;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.home .slide .content {
+    width: 80rem;
+    text-align: center;
+}
+
+.home .slide .content h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1.1;
+    padding: 2rem 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home .slide .content a {
+    color: white;
+}
+
+.home .slide .content a:hover {
+    background-color: white;
+    color: rgb(161, 98, 20);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+
+    color: white !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: rgb(158, 94, 15);
+
+}
+
+.btn a {
+    color: white;
+}
+
+.gallery-title {
+    font-size: 2rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.section-title {
+    color: rgb(173, 108, 29);
+
+}
+
+.location {
+    color: rgb(173, 108, 29);
+}
+
+.offers .icons:hover {
+    color: rgb(173, 108, 29);
+    cursor: default;
+}
+
+.flag:hover {
+    cursor: pointer;
+}
+
+.about-title {
+    font-size: 1.2rem;
+    color: rgb(173, 108, 29);
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.review-text {
+    font-size: 2rem;
+    color: rgb(173, 108, 29);
+}
+
+
+/* gallery page */
+
+
+.gallery-header {
+    min-height: 50vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/Photo\(40\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    z-index: -1;
+}
+
+.room-header {
+    min-height: 50vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/Photo\(38\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    z-index: -1;
+
+}
+
+.about-header {
+    min-height: 50vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/25.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    z-index: -1;
+
+
+
+}
+
+.contact-header {
+    min-height: 50vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/Photo\(38\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    z-index: -1;
+
+
+
+}
+
+.review-title {
+    color: rgb(173, 108, 29);
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .home .slide .content {
+        width: 50rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .home .slide .content {
+        width: 30rem;
+    }
+
+    .home .slide .content h3 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbo .slogan {
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .jumbo .slogan1 {
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+}
